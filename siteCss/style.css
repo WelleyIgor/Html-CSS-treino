@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  background-color: #fff1dc;
+  font-family: "Open Sans", sans-serif;
+  width: 75%;
+  height: 100%;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: #008080;
+}
+
+#fpcontent {
+  padding: 7px 20px 7px 20px;
+}

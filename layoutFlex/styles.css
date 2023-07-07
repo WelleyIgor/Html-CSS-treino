@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Como os itens da pagina é renderizado */
+}
+
+.container {
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex; /* Propriedade de como os itens são organizados, em linha */
+  /*  flex-direction: column; propriedade do flex pra deixar ele em coluna */
+  /* row-gap: 15px;  espaçamento entre os itens quando estão em coluna */
+  /* column-gap: 15px; espaçamento quando os itens estão em linha */
+  gap: 0px /*gap da coluna */ 15px /* gap da linha */; /* gap de ambos, tanto em linha. quanto em coluna */
+  justify-content: center; /* justify-content é um alinhamento horizontal, que neste caso está em center */
+  align-items: center; /*align-itens é um alinhamento na vertical, que neste caso está em center */
+  flex-wrap: wrap; /* quebra dos itens para responsividade */
+}
+.item {
+  /* flex-basis: 100%; é usado no lugar do width como uma boa pratica */
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  background-color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item1 {
+}
+.item2 {
+}
+.item3 {
+}
